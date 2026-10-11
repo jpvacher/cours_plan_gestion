@@ -209,7 +209,7 @@ knitr::include_graphics("images/Carte_bocage_Antonins.png")
 <div class="col2">
 
 ```{r echo=FALSE, out.width = "450px", fig.align="left"}
-knitr::include_graphics("images/Evolution_haies_Antonins.png")
+knitr::include_graphics("images/evolution_haies_Antonins.png")
 ```
 
 ```{r echo=FALSE, out.width = "300px", fig.align="right"}
