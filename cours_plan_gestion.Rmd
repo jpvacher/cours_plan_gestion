@@ -3,7 +3,6 @@ title: "Plans de gestion des espaces naturels"
 author: "Jean-Pierre Vacher. jpvacher@gmail.com"
 date: 'last updated: `r Sys.Date()`'
 output:
-  slidy_presentation: default
   ioslides_presentation: default
   beamer_presentation: default
 subtitle: UE Planification et gestion écologiques, 2026-2027
@@ -26,7 +25,7 @@ slides > slide {
 }
 </style>
 
-# Objectifs du cours
+## Objectifs du cours
 
 - Qu'est-ce qu'un plan de gestion ?
 - Pourquoi faire un plan de gestion ?
@@ -34,24 +33,279 @@ slides > slide {
 
 # Introduction
 
+## Introduction
+
 Un plan de gestion est un document cadre qui fixe les enjeux et les objectifs de la gestion des espaces naturels.
 
-Méthodolgie commune : CT88
+Méthodolgie commune : CT88 porté par l'OFB
 
+https://ct88.espaces-naturels.fr/
 
-# Quels espaces sont concernés ?
+Contenus et structure du document variable selon les espaces et les enjeux, par conséquent un plan de gestion peu être succinct (< 10 pages) ou très long (plusieurs centaines de pages).
 
-- Sites CEN
+Il est défini pour une durée donnée, en général entre cinq ou dix ans.
+
+## Introduction
+
+Un plan de gestion est un document de planification.
+
+Objectifs : 
+
+- Définir, progammer, contrôler la gestion des milieux naturels
+
+- Assurer à long terme la continuité de la gestion
+
+- Organiser le travail à mettre en œuvre sur le terrain
+
+- Transmettre et expliciter les choix de gestions aux acteurs et usagers locaux
+
+## Schéma général d'un plan de gestion
+
+<center>
+```{r echo=FALSE, out.width = "250px"}
+knitr::include_graphics("images/ct88_schema_cycle.png")
+```
+
+Démarche cyclique (notion de continuité et d'ajustement)
+
+## Quels espaces sont concernés ?
+<div class="col2">
 
 - RNR, RNN
 
 - RBD, RBI
 
+- Sites CEN
+
 - APPB
 
-#
+- Réserve de chasse et de faune sauvage
+
+- Et tout autre site naturel – au sens large – géré avec un objectif de conservation de la biodiversité
+
+En métropole et en outre-mer
+
+```{r echo=FALSE, out.width = "200px", fig.align="center"}
+knitr::include_graphics("images/PG_Trinite.png")
+```
+
+<font size="3">
+Exemple : PG de la RNN de la Trinité (Guyane) en trois tomes !
+</font>
+
+</div>
+## Qui rédige et applique des plans de gestion ?
+
+
+### Rédaction : 
+
+en régie ou extérieurs (Bureaux d'études)
+
+### Application :
+
+- Conservatoires d'espaces naturels (réseau de 25 CEN en France + outre-mer)
+
+- Associations de protection de la Nature (LPO…)
+
+- Collectivités territoriales (Régions, Départements, communautés de communes, communes)
+
+- Industriels (carrières…)
+
+
+
+## Quelques exemples
+<div class="col3">
+
+```{r echo=FALSE, out.width = "250px", fig.align="center", fig.cap="90 p."}
+knitr::include_graphics("images/PG_Offendorf.png")
+```
+
+```{r echo=FALSE, out.width = "250px", fig.align="center", fig.cap="149 p."}
+knitr::include_graphics("images/PG_Rohrscho.png")
+```
+
+```{r echo=FALSE, out.width = "250px", fig.align="center", fig.cap="135 p."}
+knitr::include_graphics("images/PG_PNF_Arc_Chateauvillain.png")
+```
+
+</div>
+
+# Comment est construit un plan de gestion ?
+
+## Plan type
+
+
+- Diagnostic
+
+- Gestion conservatoire
+
+  <font size ="4">
+  
+    - Définition des enjeux
+
+    - Définition des objectifs à long terme
+
+    - Définition des objectifs opérationels
+
+    - Description des opérations
+  
+  </font>
+
+- Fiches actions
+
+- Bibliographie
+
+- Annexes (cartes, listes d'espèces…)
+
+## Ce que contient un plan de gestion
+
+- Liste des habitats patrimoniaux
+
+- Listes des espèces animales et végétales patrimoniales
+
+- Rappel des enjeux, des objectifs à long terme, des objectifs opérationels et des actions.
+
+## Étape 1 : Le diagnostic
+- Diagnostic écologique : faune, flore, habitats.
+
+<font size="5">
+  Les outils disponibles = Arrêtés de protection, Listes rouges, atlas de répartition, Cahiers d'Habitats…
+</font>
+
+- Diagnostic géologique
+- Diagnostic archéologique
+- Diagnostic hydrologique :
+Régime des cours d'eau, identification des eaux stagnantes, connaissance des eaux souterraines.
+- Diagnostic économique (e.g. agriculture)
+- Diagnostic culturel : monuments, ouvrages, pratiques sportives et de loisir.
+
+
+## Étape 1 : Le diagnostic
+
+L'utilisation et la fréquentation des sites naturels varient dans l'espace (ville vs. forêt) et dans le temps (e.g. vacances en montagne ou à la mer).
+
+Comment concilier tous ces éléments ? Quelles priorités ?
+
+
+## Exemple : La RNR du Bocage des Antonins (79)
+
+<div class="col2">
+
+```{r echo=FALSE, out.width = "300px", fig.align="center"}
+knitr::include_graphics("images/PG_Bocage_Antonins.png")
+```
+
+
+```{r echo=FALSE, out.width = "400px", fig.align="center"}
+knitr::include_graphics("images/Carte_bocage_Antonins.png")
+```
+
+</div>
+
+
+## Exemple : La RNR du Bocage des Antonins (79)
+
+
+<div class="col2">
+
+```{r echo=FALSE, out.width = "450px", fig.align="left"}
+knitr::include_graphics("images/Evolution_haies_Antonins.png")
+```
+
+```{r echo=FALSE, out.width = "300px", fig.align="right"}
+knitr::include_graphics("images/Aeropix_Antonins.png")
+```
+
+</div>
+
+## Étape 2 : La définition des objectifs
+
+- Quelles espèces/habitats préserver ?
+
+- Quels aménagements sont prioritaires ? Parfois, il faut faire des compromis entre les objectifs de gestion et les moyens financiers et humains à disposition. Notion d'arbitrage.
+
+## Quelques exemples
+
+- Objectifs à long terme : Améliorer les conditions stationnelles d'une mare pour l'accueil de la faune ; Restaurer des conditions stationnelles d'ensoleillement pour l'expression des prairies et espèce associées
+
+- Objectifs opérationnels : Restaurer équilibre en milieux ouverts et milieux forestiers
+
+- Actions : Repousser les lisières ; Entretenir les lisières ; Entretenir une haie arbustive ; Désenvaser une mare…
+
+## Étape 3 : Les outils et moyens à déployer
+
+- Maintien de pratiques agricoles / sylvicoles vs. non-intervention
+
+- Aménagements particuliers (mares…)
+
+- Adaptation des pratiques (pratiques agricoles, sylvicoles, sportives, cynégétiques…)
+
+## Exemple avec une dimension sociologique : la RNR du Bollenberg
+
+<div class="col2">
+
+```{r echo=FALSE, out.width = "200px"}
+knitr::include_graphics("images/Rouffach.jpeg")
+```
+
+```{r echo=FALSE, out.width = "400px"}
+knitr::include_graphics("images/RNR_Rouffach.png")
+```
+
+</div>
+
+<font size="4">
+Déplacement d'une piste d'aéromodélisme => conservation de trois plantes protégées : la Cotonnière dressée
+(*Bombycilaena erecta*), Koelérie du Valais (*Koeleria vallesiana*) et Fumana à tiges retombantes (*Fumana
+procumbens*). Travail de concertation et de sensibilisation. Nécessité de médiation (Comité consultatif de la RNR)
+</font>
+
+
+## Étape 4 : Validation
+
+- Conseil scientifique : CNPN, CSRPN, Conseil scientifique CEN
+
+- Comité consultatif (RNN, RNR)
+
+- Comité de pilotage (Site Natura 2000)
+
+
+## Étape 5 : Mise en œuvre
+
+- Recherche de financement
+
+- Travaux en régie (CEN, Départements…) ou externalisés (Entreprises privées ou publiques)
+
+- Calendrier des travaux, des inventaires, des suivis
+
+
+# Évaluation des plans de gestion
+
+## Comment évaluer un plan de gestion ?
+
+- Définir des indicateurs
+
+- Suivi des espèces
+
+L'évaluation est une étape cruciale qu'il faut planifier mais souvent difficile à mettre en œuvre.
+
+## Exemple : la RNR du Bocage des Antonins (79)
+
+
+```{r echo=FALSE, out.width = "70%", fig.align="center"}
+knitr::include_graphics("images/mares_Antonins.png")
+```
+
+<div class="col2">
+
+```{r echo=FALSE, out.width = "70%",fig.align="left"}
+knitr::include_graphics("images/Cicendia_filiformis.png")
+```
+Cicendie filiforme (*Cicendia filiformis*), espèce connue du début XXème siècle retrouvée après creusage de mares
+</div>
 
 # Quelques références
+
 
 ## Pour aller plus loin
 [https://ct88.espaces-naturels.fr/guide-delaboration-des-plans-de-gestion](https://ct88.espaces-naturels.fr/guide-delaboration-des-plans-de-gestion)
