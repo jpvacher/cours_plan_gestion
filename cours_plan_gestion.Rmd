@@ -41,9 +41,11 @@ Méthodolgie commune : CT88 porté par l'OFB
 
 https://ct88.espaces-naturels.fr/
 
-Contenus et structure du document variable selon les espaces et les enjeux, par conséquent un plan de gestion peu être succinct (< 10 pages) ou très long (plusieurs centaines de pages).
+Trame identique pour tous les Plan de gestion.
 
-Il est défini pour une durée donnée, en général entre cinq ou dix ans.
+Contenus et structure du document variable selon les espaces et les enjeux, par conséquent un plan de gestion peu être succinct (< 50 pages) ou très long (plusieurs centaines de pages).
+
+Il est défini pour une durée donnée, en général cinq ou dix ans.
 
 ## Introduction
 
@@ -62,7 +64,7 @@ Objectifs :
 ## Schéma général d'un plan de gestion
 
 <center>
-```{r echo=FALSE, out.width = "250px"}
+```{r echo=FALSE, out.width = "300px"}
 knitr::include_graphics("images/ct88_schema_cycle.png")
 ```
 
@@ -98,21 +100,13 @@ Exemple : PG de la RNN de la Trinité (Guyane) en trois tomes !
 </div>
 ## Qui rédige et applique des plans de gestion ?
 
-
-### Rédaction : 
-
-en régie ou extérieurs (Bureaux d'études)
-
-### Application :
-
 - Conservatoires d'espaces naturels (réseau de 25 CEN en France + outre-mer)
-
+- ONF, OFB
 - Associations de protection de la Nature (LPO…)
-
-- Collectivités territoriales (Régions, Départements, communautés de communes, communes)
-
+- Collectivités territoriales (Régions, Départements, communes…)
 - Industriels (carrières…)
 
+En régie ou prestation (Bureau d'études, association naturaliste)
 
 
 ## Quelques exemples
@@ -153,7 +147,7 @@ knitr::include_graphics("images/PG_PNF_Arc_Chateauvillain.png")
   
   </font>
 
-- Fiches actions
+- Fiches actions (e.g. inventaire d'espèces, entretien de milieu, creusage de mare…)
 
 - Bibliographie
 
@@ -248,11 +242,8 @@ knitr::include_graphics("images/Aeropix_Antonins.png")
 Étape cruciale d'un Plan de gestion.
 
 - Notion d'état de référence
-
 - Quelles espèces/habitats préserver ?
-
 - Quels aménagements sont prioritaires ? Parfois, il faut faire des compromis entre les objectifs de gestion et les moyens financiers et humains à disposition. Notion d'arbitrage.
-
 - Hiérarchisation des enjeux : arbre décisionnel implicite, parfois difficile à appliquer. Quelle espèce serait prioritaire par rapport à une autre ? Nécessité de mise en contexte de la spécificité du site.
 
 Exemple : creuser une mare dans une prairie pour les amphibiens, mais impact sur la flore prairiale.
@@ -318,7 +309,7 @@ Référentiels habitats :
 
 - Code CORINE
 
-- Plan nationaux d'action (e.g. PNA Tourbière)
+- Plan d'action (e.g. Plan d'action Tourbières Frache-Comté)
 
 ## Diagnostic des espèces
 
@@ -340,6 +331,10 @@ Utilisation du SIG pour la cartographie des enjeux :
 - Cartographie des espèces
 
 - Cartographie du patrimoine géologique
+
+- Cartographie des sols
+
+- Cartographie hydrographie/zones humides
 
 - Cartographie des utilisations
 
