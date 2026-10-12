@@ -68,6 +68,8 @@ knitr::include_graphics("images/ct88_schema_cycle.png")
 
 Démarche cyclique (notion de continuité et d'ajustement)
 
+# Application des Plans de gestion
+
 ## Quels espaces sont concernés ?
 <div class="col2">
 
@@ -186,6 +188,14 @@ L'utilisation et la fréquentation des sites naturels varient dans l'espace (vil
 
 Comment concilier tous ces éléments ? Quelles priorités ?
 
+<u>Point de vigilance</u> : nécessité de veille bibliographique ( = actualisation des connaissances scientifiques)
+
+## Étape 1 : Le diagnostic
+
+```{r echo=FALSE, out.width = "500px", fig.align="center"}
+knitr::include_graphics("images/schema_enjeux.png")
+```
+
 
 ## Exemple : La RNR du Bocage des Antonins (79)
 
@@ -220,9 +230,10 @@ knitr::include_graphics("images/Aeropix_Antonins.png")
 
 ## Étape 2 : La définition des objectifs
 
-- Quelles espèces/habitats préserver ?
+- Objectifs à long terme : “l'état ou la fonctionnalité souhaitée par rapport à la situation actuelle de l'enjeu, qui doivent être visés afin de préserver cet enjeu”
 
-- Quels aménagements sont prioritaires ? Parfois, il faut faire des compromis entre les objectifs de gestion et les moyens financiers et humains à disposition. Notion d'arbitrage.
+- Objectifs opérationels : “facteurs naturels et anthropiques qui influencent directement ou indirectement l'existence, l'état et l'évolution des enjeux.”
+
 
 ## Quelques exemples
 
@@ -231,6 +242,21 @@ knitr::include_graphics("images/Aeropix_Antonins.png")
 - Objectifs opérationnels : Restaurer équilibre en milieux ouverts et milieux forestiers
 
 - Actions : Repousser les lisières ; Entretenir les lisières ; Entretenir une haie arbustive ; Désenvaser une mare…
+
+## Résumé des objectifs
+
+Étape cruciale d'un Plan de gestion.
+
+- Notion d'état de référence
+
+- Quelles espèces/habitats préserver ?
+
+- Quels aménagements sont prioritaires ? Parfois, il faut faire des compromis entre les objectifs de gestion et les moyens financiers et humains à disposition. Notion d'arbitrage.
+
+- Hiérarchisation des enjeux : arbre décisionnel implicite, parfois difficile à appliquer. Quelle espèce serait prioritaire par rapport à une autre ? Nécessité de mise en contexte de la spécificité du site.
+
+Exemple : creuser une mare dans une prairie pour les amphibiens, mais impact sur la flore prairiale.
+
 
 ## Étape 3 : Les outils et moyens à déployer
 
@@ -278,14 +304,55 @@ procumbens*). Travail de concertation et de sensibilisation. Nécessité de méd
 
 - Calendrier des travaux, des inventaires, des suivis
 
+# Les outils pour les Plans de gestion
+
+## Diagnostic des Habitats
+
+Relevés de terrain (phytosociologie)
+
+Référentiels habitats :
+
+- Code Eunis
+
+- Code Natura 2000 (Directive Habitat-Faune-Flore)
+
+- Code CORINE
+
+- Plan nationaux d'action (e.g. PNA Tourbière)
+
+## Diagnostic des espèces
+
+Bibliographie (littérature et BDD naturalistes) + relevés de terrain (inventaires)
+
+- Listes rouge UICN (mondiales, nationales, régionales)
+- Espèces protégées
+- Liste espèces déterminantes ZNIEFF
+- Référentiels taxinomique (e.g. TAXREF)
+- Atlas de répartition
+- Plans nationaux d'actions
+
+## Cartographie
+
+Utilisation du SIG pour la cartographie des enjeux :
+
+- Cartographie des habitats
+
+- Cartographie des espèces
+
+- Cartographie du patrimoine géologique
+
+- Cartographie des utilisations
 
 # Évaluation des plans de gestion
 
 ## Comment évaluer un plan de gestion ?
 
-- Définir des indicateurs
+- Définir des indicateurs : e.g. présence d'une espèce rare, suivi de population,fonctionnalité…
 
-- Suivi des espèces
+- Suivi des espèces : présence (inventaire), comptage, évaluation de critères démographiques…
+
+- Fonctionnalité : connectivité entre les éléments, pollinisateurs, indices de reproduction, niveaux d'eau…
+Notions d'écotones et de mosaïque d'habitats
 
 L'évaluation est une étape cruciale qu'il faut planifier mais souvent difficile à mettre en œuvre.
 
@@ -310,12 +377,10 @@ Cicendie filiforme (*Cicendia filiformis*), espèce connue du début XXème siè
 ## Pour aller plus loin
 [https://ct88.espaces-naturels.fr/guide-delaboration-des-plans-de-gestion](https://ct88.espaces-naturels.fr/guide-delaboration-des-plans-de-gestion)
 
-<div class="col3">
 
-```{r echo=FALSE, out.width = "250px"}
+```{r echo=FALSE, out.width = "250px", fig.align='center'}
 knitr::include_graphics("images/cahier_technique.png")
 ```
 
-</div>
 
 
