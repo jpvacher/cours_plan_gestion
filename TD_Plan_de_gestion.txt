@@ -35,5 +35,14 @@ Rapport succinct de 4-5 pages avec au moins les éléments suivants :
 
 Angela Osorio, Laurent Schmitt, Dominique Badariotti, Yves Meinard. 2023.  Améliorer la gestion des espaces naturels par la participation. Une analyse du guide français pour l’élaboration des plans de gestion. VertigO: La revue électronique en sciences de l’environnement, Volume23 numéro1. https://doi.org/10.4000/vertigo.40230
 
+Dans cet article, les auteurs apportent un regard critique au guide méthodologique de la méthode “CT88” pour l'élaboration des plans de gestion (PG).
+
+Répondez succinctement (4-5 phrases max.) aux deux questions suivantes :
+
+- Pourquoi existe-t-il des biais lors de l'évaluation des enjeux liés aux espèces dans les PG tels que formulés dans la méthode CT88 ?
+
+- Les auteurs soulignent un décalage entre la définition des objectifs dans la littérature scientifique et dans le guide CT88. Expliquez en quelques phrases le problème soulevé par ce décalage et ses implications pour l'évaluation des actions.
+
+
 
 
